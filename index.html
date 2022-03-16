@@ -21,7 +21,7 @@
         <div class="container ">
            
                 <a class="navbar-brand" href="#">
-                    <img  src="img/Group.svg" alt="">
+                    <img  src="img/Group.svg" alt="" >
                 </a>
                 <a class="navbar-brand" href="#">Gabriel R S Cunha</a>
 
@@ -51,13 +51,13 @@
 
 <!-- inicio da apresentaão  -->
 
-     <div class="container ">
+     <div class="container titulo-ola">
 
         <div class="row ">
              
                     <div class="col-md-7">
                             <p >
-                            <h1 style="font-weight:bold; font-size: 52px;">Olá, meu nome é Gabriel  e desenvolvo páginas web</h1>
+                            <h1 style="font-weight:bold; " >Olá, meu nome é Gabriel  e desenvolvo páginas web</h1>
                             </p>
 
                             <p>
@@ -81,7 +81,7 @@
                     </div>
             
                     <div class="col-sm-5  ">
-                        <img src="img/foto-perfil.jfif"   id="apresentacao-img">
+                        <img src="img/foto-perfil.jfif"   id="apresentacao-img" >
 
                     </div>
         </div>
@@ -132,7 +132,7 @@
             </div>
         
         
-            <div class="row justify-content-md-center " >
+            <div class="row justify-content-md-center card-bloco1" >
 
             
                 <div class="col-sm-2 " >  
@@ -172,9 +172,7 @@
                         </div>   
                     </div>
                 
-                    <div class="row  justify-content-md-center">
-
-                        
+                    <div class="row  justify-content-md-center card-bloco2">
 
                         
                             <div class="col-sm-2">  
@@ -205,7 +203,9 @@
                     
                 </div>           
 
-            </div> <!-- fim do container geral dos card -->
+            </div> 
+            
+           </div> <!-- fim do container geral dos card -->
 
 
   <!-- formacao academica  -->
@@ -321,7 +321,7 @@
 
             <div class="col-md-4 m-auto">
                
-                <h5>Clone Netflix</h5>
+                <h5 >Clone Netflix</h5>
                 <p>Curso Dio</p>
                 <a class="btn btn-outline-primary " href="https://github.com/gabriel777reis/clonenetflix">Repositório</a>
                 <a  class="btn btn-primary" href="https://gabriel777reis.github.io/clonenetflix/">Ver Demo</a>
@@ -337,12 +337,12 @@
       
     <div class="container ">
        
-        <form class="row  needs-validation " novalidate id="formulario" method="post" action="">
+        <form class="row  needs-validation " novalidate id="formulario" method="POST" >
 
             <div class="row justify-content-md-center my-3">
                         
                         <div class="col-md-3 p-1">
-                            <img src="img/imagem-contato.svg" alt="" class="img-formulario  "  >
+                            <img src="img/imagem-contato.svg" alt="" class="img-formulario">
                         </div>
 
                 <div class="col-md-5 ">
@@ -358,17 +358,17 @@
 
                         <div class="mb-2">
                             
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Nome"  required >
+                            <input type="text" class="form-control" id="nomesobrenome" placeholder="Nome"  required >
                         
                         </div>
                         <div class="mb-2">
                             
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
                         </div>
 
                         <div class="mb-2">
-                            <select type="checkbox" class="form-select" aria-label="Default select example">
-                                <option selected>Assunto</option>
+                            <select  class="form-select" aria-label="Default select example" id="assunto" required>
+                                <option selected disabled value="">Assunto</option>
                                 <option value="1">Duvidas</option>
                                 <option value="2">Trabalho</option>
                                 <option value="3">Outros</option>
@@ -376,24 +376,23 @@
                         </div>
 
                         <div class="mb-3">
-                            
-                            <textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui sua Mensagem"></textarea>
+                            <textarea type="text" class="form-control" id="mensagem" rows="3" placeholder="Digite aqui sua Mensagem"></textarea>
                         </div>
                         
                             <div class="col-12">
-                                <button class="btn btn-primary btn-lg" type="submit" value="Send email">Enviar Mensagem</button>
-                                
+                                <input type="submit" value="Enviar  Mensagem" class="btn btn-primary"> 
                             </div>
                             
                  </div>
 
            </div>
         </form>
-    </div>  
+   
+    </div>   <!-- fim da div container -->
 
 
 
-    <div class="container">
+    <div class="container rodape">
         <footer class="row row-cols-3 py-5 my-5 border-top">
           <div class="col">
            <p>Challenge Oracle ONE Front-End</p>

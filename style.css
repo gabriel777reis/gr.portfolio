@@ -30,6 +30,9 @@ html, body{
     color: black;
 }
 
+.titulo-ola h1{
+    font-size: 52px;
+}
 
 #apresentacao-img{
     border-radius: 200px;
@@ -117,9 +120,77 @@ h3{
 }
 
 
-/* 
-footer{
+@media screen and (max-width: 600px) { 
+  
+    .titulo-ola h1
+    {
+        font-size:26px;
+        width: 70%;
+    }
+
     
-    background-color: aqua;
-} */
+  
+    #apresentacao-img
+    
+    {
+        width: 300px;
+        height: 300px;
+        
+       
+        
+    }
+    
+    .card-bloco1 .col-sm-2 
+    {
+        width: 45%;
+        margin-bottom: 10px;
+       justify-content: none;
+       margin-left: 10px; 
+       
+
+    }
+
+   
+    .card-bloco2 .col-sm-2
+    {
+        width: 45%;
+        margin-bottom: 10px;
+       justify-content: none;
+       margin-left: 10px; 
+
+    }
+
+    
+    #formacao, #card-body, h5{
+        font-size: 80%;
+        margin: 0;
+    }
+
+    .card-text{
+        font-size: 80%;
+    }
+
+    .col-sm-3{
+        width: 30%;
+    }
+
+    #experiencia-proficional, h5{
+        width: 90%;
+        margin-top: 10px ;
+        
+    }
+
+    .title-experiencia{
+        margin: 0;
+        padding: 0;
+    }
+   
+    .img-formulario{
+        display: none;
+    }
+
+    .rodape{
+        width: 80%;
+    }
+}
 
